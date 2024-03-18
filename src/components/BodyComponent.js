@@ -213,6 +213,9 @@ export default class BodyComponent extends React.Component {
             <div className="container__content">
               <h1>Crap! You found an easter egg</h1>
               <h2>Don't tell anybody</h2>
+              <h4>
+                When "Namco Presents" appear, press Enter or Start many times
+              </h4>
               <iframe
                 src="https://www.retrogames.cc/embed/40238-tekken-3.html"
                 width="800"
