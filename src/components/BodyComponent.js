@@ -148,7 +148,7 @@ export default class BodyComponent extends React.Component {
               type="text"
               name="search"
             ></input>
-            <button>Go!</button>
+            {/* <button>Go!</button> */}
           </form>
 
           {this.state.isFull && (
