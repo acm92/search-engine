@@ -210,7 +210,7 @@ export default class BodyComponent extends React.Component {
               <ImageComponent key={image.urls.small} imag={image} />
             ))
           ) : this.state.easterEgg ? (
-            <div>
+            <div className="container__content">
               <h1>Crap! You found an easter egg</h1>
               <h2>Don't tell anybody</h2>
               <iframe
