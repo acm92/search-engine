@@ -1,4 +1,5 @@
 import axios from "axios";
+import secretAPIKey from "./config.js";
 
 class DataService {
   retrieveImages(searchResult) {
@@ -6,7 +7,7 @@ class DataService {
       baseURL: "https://api.unsplash.com",
       timeout: 1000,
       headers: {
-        Authorization: `Client-ID ${process.env.REACT_APP_API_KEY}`,
+        Authorization: `Client-ID ${secretAPIKey}`,
       },
     });
 
