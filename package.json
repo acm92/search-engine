@@ -2,7 +2,7 @@
   "name": "search-engine",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://acm92.github.io/search-engine/",
+  "homepage": "https://acm92.github.io/search-engine",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
